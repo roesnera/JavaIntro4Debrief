@@ -12,8 +12,8 @@ constructor with the <strong>name</strong>. Create a setter method
   opponent);</strong> an no attributes.</li>
 <li> To the <strong>Warrior</strong> class. Add a <strong>decHealth</strong> method with a single 
 parameter <strong>int amt</strong>. Set the <strong>health</strong> value to <strong>Math.max(0, health – 
-amt);</strong> which will keep the <strong>health attribute from going negative. Then 
-call the opponent’s <strong>decHealth method. The <strong>getName</strong>, <strong>getHealth</strong>, 
+amt);</strong> which will keep the <strong>health</strong> attribute from going negative. Then 
+call the opponent’s <strong>decHealth</strong> method. The <strong>getName</strong>, <strong>getHealth</strong>, 
   and <strong>setHealth</strong> from Person class will be used.</li>
 <li> To the <strong>Warrior</strong> class add an <strong>attack</strong> method that takes a <strong>Warrior 
 opponent</strong> parameter. If this warrior’s <strong>health</strong> is positive and the 
