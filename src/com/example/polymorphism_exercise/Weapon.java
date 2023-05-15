@@ -1,6 +1,6 @@
 package com.example.polymorphism_exercise;
 
-public abstract class Weapon {
+public interface Weapon {
 
-    public abstract void strike(Warrior opponent);
+    void strike(Warrior opponent);
 }

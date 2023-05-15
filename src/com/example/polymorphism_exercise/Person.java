@@ -1,6 +1,6 @@
 package com.example.polymorphism_exercise;
 
-public class Person {
+public abstract class Person {
 
     private final String name;
     private int health;
