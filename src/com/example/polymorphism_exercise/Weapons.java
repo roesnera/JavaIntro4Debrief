@@ -1,5 +1,5 @@
 package com.example.polymorphism_exercise;
-class Sword extends Weapon {
+class Sword implements Weapon {
     public void strike(Warrior opponent) {
         System.out.println("Slashing " + opponent.getName());
         opponent.decHealth(5);
@@ -7,7 +7,7 @@ class Sword extends Weapon {
     }
 }
 
-class Wand extends Weapon {
+class Wand implements Weapon {
     public void strike(Warrior opponent) {
         System.out.println("Mesmerizing " + opponent.getName());
         opponent.decHealth(3);
@@ -15,7 +15,7 @@ class Wand extends Weapon {
     }
 }
 
-class Whip extends Weapon {
+class Whip implements Weapon {
     public void strike(Warrior opponent) {
         System.out.println("Snapping " + opponent.getName());
         opponent.decHealth(4);
